@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)http://127.0.0.1:3000/array.html?vscode-livepreview=true -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" src="./Practice sessions_files/___vscode_livepreview_injected_script"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice sessions</title>
+</head>
+<body>
+    <script>
+        //problem 1
+// console.log("Hello World")
+
+// //problem 2
+// function sum(a, b) {
+//     const sum = a + b
+//     console.log(sum)
+// }
+// sum(5, 8)
+// sum(3, -3)
+// sum(5, 1.2)
+// sum(6, -4)
+
+//problem 3
+//calculating area 
+// function area(lenght, width) {
+//     if(lenght <= 0) {
+//         throw new Error("Length must be a positve number");
+//     }
+// if(width <= 0) {
+//     throw new Error("width must be a positive number!!!!.")
+// }
+//     const area = lenght * width
+//     console.log(`Area of the rectangle is ${area}.`)
+// }
+// area(43, 1)
+// area(-43, 1)
+
+// area(43, -1)
+ 
+//problem 4
+//checking numbers odd or even
+// console.log("Hello World")
+// function check(x) {
+//     if(x % 2 === 0){
+//         console.log("Number is even.")
+//     }
+//     else {
+//         console.log("Number is odd")
+//     }
+// }
+// check(45)
+
+// function check(x) {
+//     const remainder = x % 2
+//     if(remainder === 0){
+//         return "number is even"
+//     }
+//     else {
+//         return "number is odd"
+//     }
+// }
+// console.log(check(45))
+// console.log(check(-1))
+// console.log(check(0))
+// console.log(check(-23))
+
+//**********ternary operator method**********
+// function check(x) {
+//     return x % 2  === 0 ? "even" : "odd"
+// }
+// console.log(check(45))
+// console.log(check(2))
+
+//problem 5
+//write a function that finds and prints the smallest number among three given numbers.
+// function smallest(a, b, c) {
+// if(a < b && a < c){
+//     console.log(`${a} is smallest`)
+// }
+// else if(b < a && b < c){
+// console.log(`${b} is smallest`)
+// }
+// else{
+//     console.log(`${c} is smallest`)
+// }
+// }
+
+// function smallest(a, b, c){
+//     if(a <= b && a <= c){
+//         return a
+//     }
+//     else if(b <= a && b <= c){
+//         return b
+//     }
+//     else {
+//         return c
+//     }
+// }
+// console.log(smallest(3, 2, 1))
+// console.log(smallest(1, 2, 3))
+// console.log(smallest(2, 2, 4))
+// console.log(smallest(3, 3, 3))
+// console.log(smallest(2, 3, 2))
+// console.log(smallest(1, 2, 2))
+
+//third mehtod
+// function smallest(a, b, c){
+//     let smallestnumber = a
+//     if(b < a){
+//         smallestnumber = b
+//     }
+//     if(c < b){
+//     smallestnumber = c
+//     }
+//     return smallestnumber;
+// }
+//array method
+// let array = ["a", "b", "c"]
+// let newarray = array.sort()
+
+// console.log(newarray[0])
+
+//problem 6
+//write a function that return reverse of a given string.
+// function reverse(input){
+// if(typeof input !==  "string"){
+//     throw new Error("only strings are allowed ladle");
+    
+// }
+
+//     let result = ""
+// for(i=input.length - 1; i >= 0; i--){
+// // result = result + input[i]
+// result += input[i]
+// }
+// return result
+// }
+// console.log(reverse("helloworld)"))
+// console.log(reverse("ragar"))
+// console.log(reverse(123456))
+
+
+//problem 7
+//write a function that calculate factorial of a given number
+// function factorial(number) {
+//   let arr = Array.from(Array(number + 1).keys());
+//   let newArr = arr.slice(1);
+//   let product = newArr.reduce((a, b) => a * b);
+//   return product;
+// }
+
+// console.log(factorial(6));
+
+//Mehod 2
+// let a = 5
+
+    //       function factorial(num){
+    //     let fac = 1
+    //     for (let index = 1; index <= num; index++) {
+    //         const element = array[index];
+    //         fac = fac * index
+    //     }
+    //     return fac
+    // }
+
+// Method 3
+// Solving using recursion
+// function recursion(input){
+// if(input === 0 || input === 1){
+//  return 1
+// }
+
+//     return input * recursion(input - 1)
+// }
+
+// console.log(recursion(5))
+
+
+    </script>
+
+</body></html>
